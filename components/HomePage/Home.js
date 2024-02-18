@@ -56,7 +56,7 @@ const Home=()=>{
                     src='https://bit.ly/dan-abramov'
                     alt='Dan Abramov'
                     /> */}
-                    <Image style={{borderRadius:"50%",height:"150px",width:"150px"}} src='/assets/coding.gif' alt="CODING GIF"/>
+                    <Image style={{borderRadius:"50%",height:"150px",width:"150px"}} src='/coding.gif' alt="CODING GIF"/>
                     </Center>
                 </GridItem>
                 <GridItem colSpan={isMobile ? 4 : 3} h='40' justifyContent="left">
