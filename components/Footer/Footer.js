@@ -1,4 +1,4 @@
-import { Center, Container, Grid, GridItem } from '@chakra-ui/layout';
+import { Container, Grid, GridItem } from '@chakra-ui/layout';
 import { MDBBtn,MDBIcon } from 'mdb-react-ui-kit';
 import classes from './Footer.module.css';
 import { useMediaQuery } from '@chakra-ui/react';
@@ -6,7 +6,6 @@ import { useMediaQuery } from '@chakra-ui/react';
 export function Footer() {
   const [isMobile] = useMediaQuery('(max-width: 600px)');
   return (
-    // <div className={classes.footer}>
       <Container maxW="1000px" className={classes.footer}>
         <Grid templateColumns={'repeat(1,1fr)'}  templateRows={isMobile?'repeat(2,1fr)':'repeat(1,1fr)'}>
           { !isMobile &&(
@@ -33,6 +32,5 @@ export function Footer() {
           </GridItem>)}
         </Grid>
       </Container>
-    // </div>
   );
 }

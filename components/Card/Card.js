@@ -58,7 +58,6 @@ export const WorkCardComponent=(props)=>{
                     </GridItem>
                 </Grid>
             <div style={{marginTop:"0px",marginLeft:"20px",fontSize:"12px",marginRight:"20px"}}>
-                {/* <Text>Courses Taken</Text> */}
                 <ul>
                 {props.desc && Array.isArray(props.desc) && props.desc.map((ele)=>{
                     return(

@@ -3,10 +3,9 @@ import Link from 'next/link';
 import { Container, Center, Box, Flex, Divider } from '@chakra-ui/react';
 import { Image, useMediaQuery, Drawer, DrawerOverlay, DrawerContent, DrawerCloseButton, DrawerBody } from '@chakra-ui/react';
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
-import { Button, useColorMode, useDisclosure } from '@chakra-ui/react';
+import { Button,useDisclosure } from '@chakra-ui/react';
 import classes from "./HeaderSimple.module.css";
 import { useColorModeContext } from '../../utils/colorModeContext';
-// import { Link , animateScroll as scroll } from 'react-scroll';
 
 const links = [
   { link:'/#about', label:'About'},
@@ -19,18 +18,16 @@ const links = [
 
 export function HeaderSimple() {
   const [isMobile] = useMediaQuery('(max-width: 600px)');
-  // const { colorMode, toggleColorMode } = useColorMode();
   const [active, setActive] = useState(links[0].link);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const {colorMode,toggleColorMode}=useColorModeContext();
+
   const downloadResume = () => {
-    // Replace 'path/to/resume.pdf' with the actual path to your PDF file
-    const resumePath = '/Dhairya_Resume.pdf';
-    
-    // Create an anchor element
+    const resumePath = 'Dhairya_Resume.pdf';
     const link = document.createElement('a');
     link.href = resumePath;
-    link.download = 'DhairyaChhabra_Resume.pdf'; // Set the desired file name
+    link.target = '_blank';
+    link.download = 'DhairyaChhabra_Resume.pdf'; 
     link.click();
   };
   
@@ -91,7 +88,6 @@ export function HeaderSimple() {
                 <DrawerContent>
                   <DrawerCloseButton />
                   <DrawerBody>
-                    {/* Wrap items in a Flex container with flexDirection set to 'column' */}
                     <Flex flexDirection="column" style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px" }}>
                       {items}
                     </Flex>
