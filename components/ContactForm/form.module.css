@@ -1,0 +1,8 @@
+.box{
+    border-radius: 30px;
+    border:2px solid ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+

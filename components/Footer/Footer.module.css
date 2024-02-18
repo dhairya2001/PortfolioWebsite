@@ -1,0 +1,9 @@
+.footer {
+  position:flex;
+  margin-top: 20px;
+  height: 50px;
+  }
+.icons{
+  margin-left: 10px;
+  margin-right:10px;
+}

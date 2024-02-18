@@ -1,0 +1,54 @@
+/* Custom CSS */
+
+.flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .mt-5 {
+    margin-top: 1.25rem; /* 20px */
+  }
+  
+  .w-5 {
+    width: 1.25rem; /* 20px */
+  }
+  
+  .h-5 {
+    height: 1.25rem; /* 20px */
+  }
+  
+  .rounded-full {
+    border-radius: 9999px; /* Large enough to make it a circle */
+  }
+  
+  .bg-purple-600 {
+    background-color: #915eff;
+  }
+  
+  .w-5 {
+    width: 0.125rem; /* 2px */
+  }
+  
+  .sm\:h-80 {
+    height: 5rem; /* 80px */
+  }
+  
+  .h-40 {
+    height: 2.5rem; /* 40px */
+  }
+  
+  .bg-gradient-to-t {
+    background-image: linear-gradient(to top, #915eff, #4f46e5, #4338ca);
+  }
+  

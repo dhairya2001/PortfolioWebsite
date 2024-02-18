@@ -1,0 +1,18 @@
+// stars.js
+import React from 'react';
+
+const Stars = () => {
+  return (
+    <>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+        {/* </div><div id="title"> */}
+          {/* <span>P</span>
+          <br /> */}
+          <span>PARALLAX PIXEL STARS</span>
+      </>
+  );
+};
+
+export default Stars;
