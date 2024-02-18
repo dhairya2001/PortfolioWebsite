@@ -36,7 +36,6 @@ const ContactForm=()=>{
         if (!value) {
           error = 'Email is required'
         } else {
-            // Regular expression pattern to validate email format
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(value)) {
                 error = 'Invalid email address';

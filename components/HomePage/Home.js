@@ -50,12 +50,6 @@ const Home=()=>{
                 <Grid templateColumns='repeat(4, 1fr)' templateRows={isMobile?'repeat(2,1fr)':'repeat(2,1fr)'}  gap={2}>
                 <GridItem  colSpan={isMobile ? 4 : 1} h={isMobile?'':'40'}>
                     <Center h="100%">
-                    {/* <Image
-                    borderRadius={100}
-                    boxSize='120px'
-                    src='https://bit.ly/dan-abramov'
-                    alt='Dan Abramov'
-                    /> */}
                     <Image style={{borderRadius:"50%",height:"150px",width:"150px"}} src='coding.gif' alt="CODING GIF"/>
                     </Center>
                 </GridItem>

@@ -1,6 +1,5 @@
 import { Text } from "@chakra-ui/layout";
 import { WorkCardComponent } from "../Card/Card";
-import { Image } from "@chakra-ui/react";
 import SkillsTag from "../Skills/SkillsTag";
 import { work } from "../../constant";
 
