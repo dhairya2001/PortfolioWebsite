@@ -2,7 +2,7 @@ export const work=[
     {
         companyName:"AFour Technologies",
         desingation:"SDE Intern",
-        companyLogo:"/afour_technologies_logo.png",
+        companyLogo:"afour_technologies_logo.png",
         desc:[
             "Developed exit management system as internal project for companies ERP. This helped in making resignation efficient for HR, Managers and other employees.",
             "Created APIs for different roles and resignation of employees.",
@@ -15,7 +15,7 @@ export const work=[
     {
         companyName:"Digilytics Systems LLP",
         desingation:"FullStack Developer Intern",
-        companyLogo:"/digilytics.png",
+        companyLogo:"digilytics.png",
         desc:[
             "Developed a NoCode tool/webapp for small business to create and host a static webapp without any coding knowledge.",
             "Incresed efficiency for small business and helped their businesses grow."
@@ -30,7 +30,7 @@ export const education=[
     {
         name:"Savitribai Phule Pune University",
         duration:"Jun 2019 - Jun 2023",
-        logo:"/sppu.jpeg",
+        logo:"sppu.jpeg",
         caption:"Courses Taken",
         desc:[
             "DataStructures and Algorithm",

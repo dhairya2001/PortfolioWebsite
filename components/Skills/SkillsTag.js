@@ -2,7 +2,7 @@ import { useMediaQuery } from "@chakra-ui/react";
 import Image from "next/image";
 
 const links=[
-    '/assets/skills/git.png',
+    '/git.png',
     '/assets/skills/css.png',
     '/assets/skills/html.png',
     '/assets/skills/javascript.png',
