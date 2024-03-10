@@ -52,7 +52,7 @@ export const projects=[
             "ExpressJS",
             "MongoDB"
         ],
-        link:"https://github.com/dhairya2001/EMS-Backend"
+        link:"https://ems-frontend-tan.vercel.app/"
     },
     {
         name:"Healthcare Information Exchange",
