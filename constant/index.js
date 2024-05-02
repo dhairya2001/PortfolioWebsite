@@ -9,7 +9,7 @@ export const work=[
             "Optimized legacy code implementations - accelerated front-end compile time by 10%. Saved up to 1 hour of developer's time daily, using technologies such as Redux.",
             "Collaborated and worked in a team of 6."
         ],
-        duration:"Mar 2023 - Present",
+        duration:"Mar 2023 - Mar 2024",
         location:"Pune,India"
     },
     {
@@ -33,11 +33,11 @@ export const education=[
         logo:"sppu.jpeg",
         caption:"Courses Taken",
         desc:[
-            "DataStructures and Algorithm",
+            "Data Structures and Algorithms",
             "Software Engineering",
-            "Data Science",
+            "Data Science and Big Data Analytics",
             "Machine Learning",
-            "Operating Systems",
+            "Systems Programming and Operating Systems",
         ],
         location:"Pune,India"
     },
@@ -55,6 +55,15 @@ export const projects=[
         link:"https://ems-frontend-tan.vercel.app/"
     },
     {
+        name:"WordCorn",
+        desc:"A Painless English Vocalbulary Builder : Use the power of mnemonic devices, engaging stories, the proven loci method, captivating videos, and vivid imagery to make learning words not just efficient, but downright enjoyable",
+        tags:[
+            "NextJS",
+            "Supabase"
+        ],
+        link:"https://www.wordcorn.in/"
+    },
+    {
         name:"Healthcare Information Exchange",
         desc:"Able to store patient data more securely, and doctors could add their diagnosis to patient records. Published a research paper at the ICCIS 2022 conference.",
         tags:[
@@ -63,15 +72,6 @@ export const projects=[
             "Blockchain"
         ],
         link:"https://link.springer.com/chapter/10.1007/978-981-99-2322-9_8"
-    },
-    {
-        name:"WordCorn",
-        desc:"A Painless English Vocalbulary Builder : Use the power of mnemonic devices, engaging stories, the proven loci method, captivating videos, and vivid imagery to make learning words not just efficient, but downright enjoyable",
-        tags:[
-            "NextJS",
-            "Supabase"
-        ],
-        link:"https://www.wordcorn.in/"
     }
 ]
 
