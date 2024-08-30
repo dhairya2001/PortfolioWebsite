@@ -34,7 +34,7 @@ export const education = [
     desc: [
       "Algorithms Analysis",
       "Machine Learning",
-      "Advance Database Systems",
+      "Database Theory & Implementation",
     ],
     location: "San Diego, California",
   },
@@ -56,13 +56,7 @@ export const education = [
 
 export const projects = [
   {
-    name: "Expense Management System",
-    desc: "An expense managing application where users can manage the monthly budget category-wise (like fuel, rent, light bill, etc.). Users could set the budget and view expenses based on dates and categories.",
-    tags: ["ReactJS", "ExpressJS", "MongoDB"],
-    link: "https://ems-frontend-tan.vercel.app/",
-  },
-  {
-    name: "WordCorn",
+    name: "Wordcorn",
     desc: "A Painless English Vocalbulary Builder : Use the power of mnemonic devices, engaging stories, the proven loci method, captivating videos, and vivid imagery to make learning words not just efficient, but downright enjoyable",
     tags: ["NextJS", "Supabase"],
     link: "https://www.wordcorn.in/",
@@ -73,6 +67,19 @@ export const projects = [
     tags: ["Research Paper", "Smart Contract", "Blockchain"],
     link: "https://link.springer.com/chapter/10.1007/978-981-99-2322-9_8",
   },
+  {
+    name: "Sentiment Analysis on Twitter Data",
+    desc: "A machine learning model using TensorFlow to classify tweets as positive, negative, or neutral, integrated with AWS for real-time sentiment analysis and social media monitoring.",
+    tags: ["Python", "TensorFlow" , "AWS"],
+    link: "#"
+  },
+  {
+    name: "Expense Management System",
+    desc: "An expense managing application where users can manage the monthly budget category-wise (like fuel, rent, light bill, etc.). Users could set the budget and view expenses based on dates and categories.",
+    tags: ["ReactJS", "ExpressJS", "MongoDB"],
+    link: "#"
+    // link: "https://ems-frontend-tan.vercel.app/",
+  }
 ];
 
 export const dev = [
