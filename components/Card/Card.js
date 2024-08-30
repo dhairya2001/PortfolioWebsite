@@ -49,6 +49,7 @@ export function ProjectCardComponent(props) {
             </Tag>
           ))}
         </HStack>
+        {props.link!=='#'?
         <div style={{ textAlign: "center", marginTop: "20px" }}>
           <Button
             onClick={() => {
@@ -59,7 +60,8 @@ export function ProjectCardComponent(props) {
             <LinkIcon marginRight={2} />
             View
           </Button>
-        </div>
+        </div>:<></>
+        }
       </CardBody>
     </Card>
   );
