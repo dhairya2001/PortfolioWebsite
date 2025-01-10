@@ -1,5 +1,16 @@
 export const work = [
   {
+    companyName: "SDSU Research Foundation",
+    desingation: "Graduate Student Assistant",
+    companyLogo: "sdsu_rf.jpeg",
+    desc: [
+      "Executing comprehensive quality control on brain MRI scans of patients diagnosed with Autism Spectrum Disorder (ASD) using MRIQC, ensuring the reliability and accuracy of neuroimaging data for subsequent analyses.",
+      "Analyzing Diffusion Weighted Imaging (DWI) and T1-weighted (T1w) MRI data, generating detailed visual reports to assist in research and clinical diagnosis thereby, facilitating improved understanding and assessment of ASD-related neuroanatomical features"
+    ],
+    duration: "Sept 2024 - Dec 2024",
+    location: "San Diego,USA",
+  },
+  {
     companyName: "AFour Technologies",
     desingation: "SDE Intern",
     companyLogo: "afour_technologies_logo.png",
@@ -59,7 +70,7 @@ export const projects = [
     name: "Wordcorn",
     desc: "A Painless English Vocalbulary Builder : Use the power of mnemonic devices, engaging stories, the proven loci method, captivating videos, and vivid imagery to make learning words not just efficient, but downright enjoyable",
     tags: ["NextJS", "Supabase"],
-    link: "https://www.wordcorn.in/",
+    link: "https://www.wordcorn.co/",
   },
   {
     name: "Healthcare Information Exchange",

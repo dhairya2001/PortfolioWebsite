@@ -27,8 +27,8 @@ const SkillsTag = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              marginLeft: "8px",
-              marginRight: "8px",
+              marginLeft: "10%",
+              marginRight: "10%",
               height: "100px",
               width: "100px",
               borderRadius: "50%",
@@ -37,20 +37,21 @@ const SkillsTag = () => {
           >
             <Image src={link[0]} style={{ height: "80px", width: "80px" }} />
           </div>
-          <div style={{ display: "flex", justifyContent: "center" }}>
+          <div style={{ display: "flex",justifyContent:"center" }}>
             {link[1]}
           </div>
         </div>
       </>
     );
   });
-  const [isMobile] = useMediaQuery("(max-width: 600px)");
+  const [isMobile] = useMediaQuery("(max-width: 420px)");
+  const [isApple] = useMediaQuery("(max-width: 600px)");
   return (
     <>
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: isMobile ? "repeat(2,1fr)" : "repeat(6, 1fr)",
+          gridTemplateColumns: isMobile ? "repeat(2,1fr)" : isApple? "repeat(3,1fr)":"repeat(6, 1fr)",
           gap: "16px",
           marginTop: "16px",
           justifyContent: "center",
