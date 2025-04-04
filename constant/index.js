@@ -4,8 +4,8 @@ export const work = [
     desingation: "Graduate Student Assistant",
     companyLogo: "sdsu_rf.jpeg",
     desc: [
-      "Executing comprehensive quality control on brain MRI scans of patients diagnosed with Autism Spectrum Disorder (ASD) using MRIQC, ensuring the reliability and accuracy of neuroimaging data for subsequent analyses.",
-      "Analyzing Diffusion Weighted Imaging (DWI) and T1-weighted (T1w) MRI data, generating detailed visual reports to assist in research and clinical diagnosis thereby, facilitating improved understanding and assessment of ASD-related neuroanatomical features"
+      "Containerized the MRIQC pipeline using Docker to create a consistent and reproducible environment for processing MRI data, which reduced setup time by 30% and ensured reliable quality control across different systems.",
+      "Analyzed MRI data and performed ETL to clean and process large datasets; generated detailed visual reports to support research and clinical diagnosis, improving understanding and assessment of ASD-related neuroanatomical features."
     ],
     duration: "Sept 2024 - Dec 2024",
     location: "San Diego,USA",
@@ -15,10 +15,10 @@ export const work = [
     desingation: "SDE Intern",
     companyLogo: "afour_technologies_logo.png",
     desc: [
-      "Developed exit management system as internal project for companies ERP. This helped in making resignation efficient for HR, Managers and other employees.",
-      "Created APIs for different roles and resignation of employees.",
-      "Optimized legacy code implementations - accelerated front-end compile time by 10%. Saved up to 1 hour of developer's time daily, using technologies such as Redux.",
-      "Collaborated and worked in a team of 6.",
+      "Deployed and maintained AI-powered React apps with dynamic data on AWS, improving uptime and efficiency through automated workflows and performance tuning – achieved 99.9% uptime and a 20% boost in deployment efficiency.",
+      "Built a resignation portal for the ERP system using React.js, NodeJS, and MongoDB, creating robust APIs and integrating a relational database which enhanced system efficiency and user experience.",
+      "Optimized Java-based APIs to retrieve only relevant data, improving data handling efficiency and reducing response time, which enhanced overall software performance by 50%.",
+      "Refactored complex legacy code and optimized critical business logic, cutting front-end compile time by 10% to significantly boost developer efficiency and accelerate product release cycles."
     ],
     duration: "Mar 2023 - Mar 2024",
     location: "Pune,India",
@@ -28,8 +28,9 @@ export const work = [
     desingation: "FullStack Developer Intern",
     companyLogo: "digilytics.png",
     desc: [
-      "Developed a NoCode tool/webapp for small business to create and host a static webapp without any coding knowledge.",
-      "Incresed efficiency for small business and helped their businesses grow.",
+      "Led a team of 5 developers to build a No-Code web application with drag-and-drop functionality, enabling over 500+ non-technical users to create static websites easily, increasing their sales by ∼ 20%",
+      "Developed scalable and responsive components using React.js within an Agile, Scrum framework; built distributed systems to improve software performance and gained hands-on experience in enterprise-grade development",
+      "Enhanced code quality by following clean code practices and designing a user-friendly UI, which improved user experience by 30% and maintainability by reducing code complexity by 25%, while increasing code readability and enabling faster future enhancements."
     ],
     duration: "Dec 2021 - May 2022",
     location: "Pune,India",
@@ -74,7 +75,7 @@ export const projects = [
   },
   {
     name: "Healthcare Information Exchange",
-    desc: "Able to store patient data more securely, and doctors could add their diagnosis to patient records. Published a research paper at the ICCIS 2022 conference.",
+    desc: "Developed a secure patient data exchange system using React Native for the frontend and MetaMask for secure transactions, reducing data breaches by 15% and increasing user verification accuracy by 25% through secure SQL integration.",
     tags: ["Research Paper", "Smart Contract", "Blockchain"],
     link: "https://link.springer.com/chapter/10.1007/978-981-99-2322-9_8",
   },
@@ -82,13 +83,13 @@ export const projects = [
     name: "Sentiment Analysis on Twitter Data",
     desc: "A machine learning model using TensorFlow to classify tweets as positive, negative, or neutral, integrated with AWS for real-time sentiment analysis and social media monitoring.",
     tags: ["Python", "TensorFlow" , "AWS"],
-    link: "#"
+    link: "https://github.com/dhairya2001/Sentiment-Analysis"
   },
   {
-    name: "Expense Management System",
-    desc: "An expense managing application where users can manage the monthly budget category-wise (like fuel, rent, light bill, etc.). Users could set the budget and view expenses based on dates and categories.",
+    name: "BudgetWise",
+    desc: "Developed BudgetWise using NodeJS and ReactJS to manage monthly expenses, helping users save 10% monthly by improving spending control and enhancing web page loading speed for a smoother user experience.",
     tags: ["ReactJS", "ExpressJS", "MongoDB"],
-    link: "#"
+    link: "https://github.com/dhairya2001/EMS-Frontend"
     // link: "https://ems-frontend-tan.vercel.app/",
   }
 ];
@@ -96,7 +97,7 @@ export const projects = [
 export const dev = [
   {
     img: "web.png",
-    title: "Full Stack Developer",
+    title: "Software Engineer",
   },
   {
     img: "data.png",
