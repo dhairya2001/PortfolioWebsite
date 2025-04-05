@@ -12,7 +12,7 @@ export const work = [
   },
   {
     companyName: "AFour Technologies",
-    desingation: "SDE Intern",
+    desingation: "Software Engineer",
     companyLogo: "afour_technologies_logo.png",
     desc: [
       "Deployed and maintained AI-powered React apps with dynamic data on AWS, improving uptime and efficiency through automated workflows and performance tuning – achieved 99.9% uptime and a 20% boost in deployment efficiency.",
