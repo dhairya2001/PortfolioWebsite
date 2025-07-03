@@ -2,18 +2,19 @@ import { useMediaQuery } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 
 const links = [
-  ["git.png", "Git"],
+  ["assets/skills/aws.png","AWS"],
+  ["assets/skills/javascript.png", "Javascript"],
+  ["assets/skills/python.png", "Python"],
+  ["assets/skills/nodejs.png", "NodeJS"],
+  ["assets/skills/typescript.png", "Typescript"],
+  ["assets/skills/redux.png", "Redux"],
+  ["assets/skills/postgre.png", "PostgreSQL"],
+  ["assets/skills/mongodb.png", "MongoDB"],
   ["assets/skills/css.png", "CSS"],
   ["assets/skills/html.png", "HTML"],
-  ["assets/skills/javascript.png", "Javascript"],
-  ["assets/skills/mongodb.png", "MongoDB"],
-  ["assets/skills/nodejs.png", "NodeJS"],
-  ["assets/skills/postgre.png", "PostgreSQL"],
-  ["assets/skills/python.png", "Python"],
-  ["assets/skills/redux.png", "Redux"],
-  ["assets/skills/typescript.png", "Typescript"],
-  ["assets/skills/tailwind.png", "Tailwind"],
+  // ["assets/skills/tailwind.png", "Tailwind"],
   ["assets/skills/graphql.png", "GraphQL"],
+  ["git.png", "Git"],
 ];
 
 const SkillsTag = () => {
