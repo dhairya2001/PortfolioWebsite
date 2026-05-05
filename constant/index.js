@@ -4,11 +4,9 @@ export const work = [
     desingation: "TA Software Engineer",
     companyLogo: "sdsu_rf.jpeg",
     desc: [
-      // "Containerized the MRIQC pipeline using Docker to create a consistent and reproducible environment for processing MRI data, which reduced setup time by 30% and ensured reliable quality control across different systems.",
-      // "Analyzed MRI data and performed ETL to clean and process large datasets; generated detailed visual reports to support research and clinical diagnosis, improving understanding and assessment of ASD-related neuroanatomical features.",
-      "Developed automated grading workflows using Java and JUnit, increasing grading efficiency by 40%",
-      "Led a team of 6 to train and deploy a multi agent Generative AI-based Chatbot assistant on AWS SageMaker employing Python, Flask and FastAPI, improving University’s internal portal information retrieval accuracy by 20%.",
-      "Mentored 200+ students on debugging, refactoring, and software engineering improving overall learning outcomes."
+      "Engineered a RAG-based LLM pipeline for academic Q&A by integrating Python, FastAPI, and vector embeddings on AWS, improving information retrieval accuracy by 20%.",
+      "Validated performance with JUnit and load tests simulating concurrent users, surfacing 4+ bottlenecks pre-production.",
+      "Fine-tuned and evaluated ML models on academic datasets using Python and Jupyter, benchmarking transformer architectures to improve model accuracy by 15% over baseline."
     ],
     duration: "Sept 2024 - Present",
     location: "San Diego,USA",
@@ -18,9 +16,10 @@ export const work = [
     desingation: "Software Engineer",
     companyLogo: "wordcorn.jpeg",
     desc: [
-      "Engineered end-to-end full-stack functionality using ReactJS, TypeScript on the frontend and backend APIs, supporting authentication, user progress tracking, and personalized learning workflows for an educational web platform.",
-      "Optimized application performance by configuring Cloudflare edge caching for frequently accessed images, reducing re- peated origin fetches and lowering asset load latency by ∼25%.",
-      "Implemented GenAI APIs for content summarization and recommendation logic, reducing content curation effort."
+      "Engineered end-to-end full-stack AI learning workflows by building ReactJS and TypeScript frontends backed by Python REST APIs, increasing user engagement by 30%.",
+      "Secured REST APIs by implementing JWT authentication and role-based access control across 20+ endpoints, preventing unauthorized access to user data.",
+      "Developed GenAI summarization and recommendation pipelines by integrating LLM APIs with scalable Python services on AWS, reducing content curation effort by 35%.",
+      "Integrated Stripe payment gateway into platform, enabling monetization and unlocking the revenue stream for product."
     ],
     duration: "May 2025 - Aug. 2025",
     location: "San Jose,USA",
@@ -35,10 +34,6 @@ export const work = [
       "To support real-time ad performance tracking, built an analytics dashboard using React and Redux with an event-driven data flow, integrating APIs through Python middleware to handle live updates and ensure consistent state management.",
       "Coordinated closely with cross-functional teams like senior engineers, QA, and stakeholders in an Agile environment to deliver features incrementally and address production issues.",
       "Reduced MTTR by 40% by implementing centralized monitoring and observability using AWS CloudWatch and Grafana dashboards to track API latency, error rates, and system health across production services."
-      // "Automated deployement and scaling of AI-powered React apps on AWS using CI/CD pipelines and Terraform, improving uptime to 99.9% and a 20% boost in deployment efficiency.",
-      // "Built a resignation portal for the ERP system using ReactJS, NodeJS, and MongoDB, leveraging microservices and an event-driven architecture to improve system workflows and user experience.",
-      // "Refactored complex legacy code and optimized critical business logic, cutting front-end compile time by 10% to significantly boost developer efficiency and accelerate product release cycles.",
-      // "Optimized Java APIs to retrieve only relevant data, improving data handling efficiency and reducing response time, which enhanced overall software performance by 50%"
     ],
     duration: "Mar 2023 - Mar 2024",
     location: "Pune,India",
