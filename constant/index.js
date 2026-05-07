@@ -51,7 +51,7 @@ export const work = [
       // "Engineered scalable and responsive components using JavaScript frameworks within an Agile, Scrum workflow; built distributed systems to improve performance and support enterprise-grade development.",
       // "Enhanced code quality by following clean code practices and designing a user-friendly UI, which improved user experience by 30% and maintainability by reducing code complexity by 25%, while increasing code readability and enabling faster future enhancements."
     ],
-    duration: "Dec 2021 - May 2022",
+    duration: "Dec 2021 - Dec 2022",
     location: "Pune,India",
   },
 ];
