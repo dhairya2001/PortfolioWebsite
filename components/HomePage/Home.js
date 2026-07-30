@@ -100,11 +100,7 @@ const Home = () => {
           </Text>
           <Text fontSize="25px">
             {/* style={{color:"#a6a2bf"}} */}
-            I&apos;m a skilled software developer with experience in C/C++,
-            Python, JavaScript, and Java, with profound knowledge in databases
-            like MySQL, PostgreSQL and MongoDB. I&apos;m Skilled in frameworks
-            and tools such as NextJS, ReactJS, and Nodejs. Let&apos;s work
-            together to bring your ideas to life! 😊
+            Software Engineer with 3+ years of experience designing, building, and shipping end-to-end web applications and cloud-native backend services across education, retail, and enterprise platforms. Skilled in Java, Spring Boot, Python, FastAPI, Django, Node.js, Express.js, TypeScript, React.js, Next.js, REST APIs, PostgreSQL, MongoDB, Redis, Apache Kafka, AWS, Docker, Kubernetes, and CI/CD. Comfortable owning features from responsive React interfaces through distributed microservices, event- driven pipelines, and production monitoring, with a focus on performance, reliability, testing, and clean, maintainable code.
           </Text>
         </Box>
 
